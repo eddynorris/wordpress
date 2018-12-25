@@ -1,0 +1,19 @@
+== Change log ==
+
+= 1.0.2 =
+* Added : Upgrade to Pro
+* Added : Theme Info Page
+* Added : RTL Language support
+* Added : Editor Style
+* Fixed : Minor Code and Bugs
+
+= 1.0.1 =
+* Updated : Minor Code and Bugs
+
+= 1.0.0 =
+* Updated : Screenshot
+* Updated : Code Structure and Widget
+* Updated : Design Changes
+
+= 0.0.1 - Jan 29 2018 =
+* Submitted to WordPress.org
