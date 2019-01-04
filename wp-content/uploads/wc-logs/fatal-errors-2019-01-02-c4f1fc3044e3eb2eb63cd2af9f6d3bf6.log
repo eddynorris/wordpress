@@ -1,0 +1,58 @@
+2019-01-02T21:23:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Aggregator\Tabs\New.php on line 5
+
+2019-01-02T22:10:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 76
+
+2019-01-02T22:16:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 76
+
+2019-01-02T22:16:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Aggregator\Records.php on line 5
+
+2019-01-02T23:04:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Aggregator\API\Abstract.php on line 5
+
+2019-01-02T23:04:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php on line 8
+
+2019-01-02T23:04:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php on line 163
+
+2019-01-02T23:04:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Autoloader.php on line 169
+
+2019-01-02T23:05:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Aggregator\Tabs\New.php on line 5
+
+2019-01-02T23:06:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\nav-menu.php on line 11
+
+2019-01-02T23:08:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\wpforms-lite\src\Providers\Loader.php on line 14
+
+2019-01-02T23:08:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\wpforms-lite\src\Admin\Challenge.php on line 14
+
+2019-01-02T23:09:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\themeisle-companion\vendor\codeinwp\themeisle-sdk\class-themeisle-sdk-product.php on line 12
+
+2019-01-02T23:12:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Aggregator\Record\Queue_Realtime.php on line 7
+
+2019-01-02T23:12:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-api-keys.php on line 14
+
+2019-01-02T23:13:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\media.php on line 16
+
+2019-01-02T23:14:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\IRI.php on line 66
+
+2019-01-02T23:14:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-01-02T23:15:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\Response\Headers.php on line 13
+
+2019-01-02T23:16:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Aggregator\Service.php on line 5
+
+2019-01-02T23:20:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\themeisle-companion\vendor\codeinwp\themeisle-sdk\class-themeisle-sdk-rollback.php on line 12
+
+2019-01-02T23:20:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php on line 1186
+
+2019-01-02T23:20:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\meta-boxes.php on line 22
+
+2019-01-02T23:22:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php on line 163
+
+2019-01-02T23:24:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 915
+
+2019-01-02T23:26:14+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Assets.php on line 7
+
+2019-01-02T23:27:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\themes\zerif-lite\inc\template-tags.php on line 9
+
+2019-01-02T23:29:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Aggregator\Record\Queue_Realtime.php on line 7
+
+2019-01-02T23:29:52+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\template.php on line 12
+
