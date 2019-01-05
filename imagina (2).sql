@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-01-2019 a las 16:00:45
+-- Tiempo de generación: 05-01-2019 a las 16:23:48
 -- Versión del servidor: 10.1.29-MariaDB
 -- Versión de PHP: 7.2.0
 
@@ -573,8 +573,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (2348, '_transient_timeout_wc_upgrade_notice_3.5.3', '1546756419', 'no'),
 (2349, '_transient_wc_upgrade_notice_3.5.3', '', 'no'),
 (2354, '_site_transient_timeout_theme_roots', '1546699965', 'no'),
-(2355, '_site_transient_theme_roots', 'a:2:{s:16:\"zerif-lite-child\";s:7:\"/themes\";s:10:\"zerif-lite\";s:7:\"/themes\";}', 'no'),
-(2358, '_transient_is_multi_author', '0', 'yes');
+(2355, '_site_transient_theme_roots', 'a:2:{s:16:\"zerif-lite-child\";s:7:\"/themes\";s:10:\"zerif-lite\";s:7:\"/themes\";}', 'no');
 
 -- --------------------------------------------------------
 
@@ -1706,7 +1705,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1693, 137, '_edit_lock', '1545954562:1'),
 (1694, 139, '_edit_lock', '1545785265:1'),
 (1711, 144, '_menu_item_type', 'post_type'),
-(1712, 144, '_menu_item_menu_item_parent', '355'),
+(1712, 144, '_menu_item_menu_item_parent', '0'),
 (1713, 144, '_menu_item_object_id', '139'),
 (1714, 144, '_menu_item_object', 'page'),
 (1715, 144, '_menu_item_target', ''),
@@ -2042,7 +2041,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2100, 279, '_menu_item_url', ''),
 (2102, 279, 'obfx_menu_icon', ''),
 (2103, 281, '_menu_item_type', 'post_type'),
-(2104, 281, '_menu_item_menu_item_parent', '355'),
+(2104, 281, '_menu_item_menu_item_parent', '0'),
 (2105, 281, '_menu_item_object_id', '204'),
 (2106, 281, '_menu_item_object', 'page'),
 (2107, 281, '_menu_item_target', ''),
@@ -2262,7 +2261,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2415, 370, '_customize_changeset_uuid', '2b3b14f3-85c3-4083-84fd-0e6ab3b11ecb'),
 (2417, 371, '_customize_changeset_uuid', '2b3b14f3-85c3-4083-84fd-0e6ab3b11ecb'),
 (2418, 376, '_menu_item_type', 'post_type'),
-(2419, 376, '_menu_item_menu_item_parent', '0'),
+(2419, 376, '_menu_item_menu_item_parent', '355'),
 (2420, 376, '_menu_item_object_id', '367'),
 (2421, 376, '_menu_item_object', 'page'),
 (2422, 376, '_menu_item_target', ''),
@@ -2270,7 +2269,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2424, 376, '_menu_item_xfn', ''),
 (2425, 376, '_menu_item_url', ''),
 (2426, 377, '_menu_item_type', 'post_type'),
-(2427, 377, '_menu_item_menu_item_parent', '0'),
+(2427, 377, '_menu_item_menu_item_parent', '355'),
 (2428, 377, '_menu_item_object_id', '369'),
 (2429, 377, '_menu_item_object', 'page'),
 (2430, 377, '_menu_item_target', ''),
@@ -2278,7 +2277,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2432, 377, '_menu_item_xfn', ''),
 (2433, 377, '_menu_item_url', ''),
 (2434, 378, '_menu_item_type', 'post_type'),
-(2435, 378, '_menu_item_menu_item_parent', '0'),
+(2435, 378, '_menu_item_menu_item_parent', '355'),
 (2436, 378, '_menu_item_object_id', '370'),
 (2437, 378, '_menu_item_object', 'page'),
 (2438, 378, '_menu_item_target', ''),
@@ -2286,7 +2285,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2440, 378, '_menu_item_xfn', ''),
 (2441, 378, '_menu_item_url', ''),
 (2442, 379, '_menu_item_type', 'post_type'),
-(2443, 379, '_menu_item_menu_item_parent', '0'),
+(2443, 379, '_menu_item_menu_item_parent', '355'),
 (2444, 379, '_menu_item_object_id', '371'),
 (2445, 379, '_menu_item_object', 'page'),
 (2446, 379, '_menu_item_target', ''),
@@ -2294,7 +2293,10 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2448, 379, '_menu_item_xfn', ''),
 (2449, 379, '_menu_item_url', ''),
 (2450, 368, '_wp_trash_meta_status', 'publish'),
-(2451, 368, '_wp_trash_meta_time', '1546700367');
+(2451, 368, '_wp_trash_meta_time', '1546700367'),
+(2452, 380, '_edit_lock', '1546701793:1'),
+(2453, 380, '_wp_trash_meta_status', 'publish'),
+(2454, 380, '_wp_trash_meta_time', '1546701810');
 
 -- --------------------------------------------------------
 
@@ -2424,7 +2426,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (140, 1, '2018-12-25 19:47:06', '2018-12-26 00:47:06', '', 'Unete a Nosotros', '', 'inherit', 'closed', 'closed', '', '139-revision-v1', '', '', '2018-12-25 19:47:06', '2018-12-26 00:47:06', '', 139, 'http://localhost/wordpress/2018/12/25/139-revision-v1/', 0, 'revision', '', 0);
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
 (141, 1, '2018-12-25 19:51:36', '2018-12-26 00:51:36', '{\n    \"nav_menu_item[130]\": {\n        \"value\": false,\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 00:51:36\"\n    },\n    \"nav_menu_item[131]\": {\n        \"value\": false,\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 00:51:36\"\n    },\n    \"nav_menu_item[132]\": {\n        \"value\": false,\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 00:51:36\"\n    },\n    \"nav_menu_item[-1166186007]\": {\n        \"value\": {\n            \"object_id\": 135,\n            \"object\": \"page\",\n            \"menu_item_parent\": 0,\n            \"position\": 2,\n            \"type\": \"post_type\",\n            \"title\": \"Eventos\",\n            \"url\": \"http://localhost/wordpress/eventos/\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"Eventos\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"P\\u00e1gina\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 00:51:36\"\n    },\n    \"nav_menu_item[-579784911]\": {\n        \"value\": {\n            \"object_id\": 137,\n            \"object\": \"page\",\n            \"menu_item_parent\": 0,\n            \"position\": 3,\n            \"type\": \"post_type\",\n            \"title\": \"Recepciones\",\n            \"url\": \"http://localhost/wordpress/recepciones/\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"Recepciones\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"P\\u00e1gina\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 00:51:36\"\n    },\n    \"nav_menu_item[-515429154]\": {\n        \"value\": {\n            \"object_id\": 139,\n            \"object\": \"page\",\n            \"menu_item_parent\": 0,\n            \"position\": 4,\n            \"type\": \"post_type\",\n            \"title\": \"Unete a Nosotros\",\n            \"url\": \"http://localhost/wordpress/unete-a-nosotros/\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"Unete a Nosotros\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"P\\u00e1gina\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 00:51:36\"\n    },\n    \"nav_menu_item[-1792880302]\": {\n        \"value\": {\n            \"object_id\": 122,\n            \"object\": \"page\",\n            \"menu_item_parent\": 0,\n            \"position\": 5,\n            \"type\": \"post_type\",\n            \"title\": \"Blog\",\n            \"url\": \"http://localhost/wordpress/blog/\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"Blog\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"P\\u00e1gina\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 00:51:36\"\n    },\n    \"nav_menu_item[-1024400325]\": {\n        \"value\": {\n            \"object_id\": 0,\n            \"object\": \"tribe_events\",\n            \"menu_item_parent\": 0,\n            \"position\": 6,\n            \"type\": \"post_type_archive\",\n            \"title\": \"Events\",\n            \"url\": \"http://localhost/wordpress/events/\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"Events\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"Archivo del tipo de entrada\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 00:51:36\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'faa36efe-e34f-4d66-a956-bb6abcc270ae', '', '', '2018-12-25 19:51:36', '2018-12-26 00:51:36', '', 0, 'http://localhost/wordpress/2018/12/25/faa36efe-e34f-4d66-a956-bb6abcc270ae/', 0, 'customize_changeset', '', 0),
-(144, 1, '2018-12-25 19:51:42', '2018-12-26 00:51:42', ' ', '', '', 'publish', 'closed', 'closed', '', '144', '', '', '2019-01-05 09:59:22', '2019-01-05 14:59:22', '', 0, 'http://localhost/wordpress/2018/12/25/144/', 7, 'nav_menu_item', '', 0),
+(144, 1, '2018-12-25 19:51:42', '2018-12-26 00:51:42', ' ', '', '', 'publish', 'closed', 'closed', '', '144', '', '', '2019-01-05 10:23:29', '2019-01-05 15:23:29', '', 0, 'http://localhost/wordpress/2018/12/25/144/', 12, 'nav_menu_item', '', 0),
 (148, 1, '2018-12-26 07:18:29', '2018-12-26 12:18:29', '{\n    \"zerif-lite::background_image\": {\n        \"value\": \"http://localhost/wordpress/wp-content/uploads/2018/12/foto-2.jpg\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 12:18:06\"\n    },\n    \"zerif-lite::background_preset\": {\n        \"value\": \"fill\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 12:18:29\"\n    },\n    \"zerif-lite::background_size\": {\n        \"value\": \"cover\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 12:18:29\"\n    },\n    \"zerif-lite::background_repeat\": {\n        \"value\": \"no-repeat\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 12:18:06\"\n    },\n    \"zerif-lite::background_attachment\": {\n        \"value\": \"fixed\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 12:18:06\"\n    },\n    \"zerif-lite::background_position_x\": {\n        \"value\": \"left\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 12:18:29\"\n    },\n    \"zerif-lite::background_position_y\": {\n        \"value\": \"top\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 12:18:29\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '71919f93-d7ba-478c-a802-85465370249d', '', '', '2018-12-26 07:18:29', '2018-12-26 12:18:29', '', 0, 'http://localhost/wordpress/?p=148', 0, 'customize_changeset', '', 0),
 (150, 1, '2018-12-26 08:04:28', '2018-12-26 13:04:28', 'http://localhost/wordpress/wp-content/uploads/2018/12/cropped-IMAGINA.png', 'cropped-IMAGINA.png', '', 'inherit', 'open', 'closed', '', 'cropped-imagina-png', '', '', '2018-12-26 08:04:28', '2018-12-26 13:04:28', '', 0, 'http://localhost/wordpress/wp-content/uploads/2018/12/cropped-IMAGINA.png', 0, 'attachment', 'image/png', 0),
 (151, 1, '2018-12-26 08:04:35', '2018-12-26 13:04:35', '{\n    \"zerif-lite::custom_logo\": {\n        \"value\": 150,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-12-26 13:04:35\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '0be220cd-4836-4a89-87f2-8a788979143f', '', '', '2018-12-26 08:04:35', '2018-12-26 13:04:35', '', 0, 'http://localhost/wordpress/2018/12/26/0be220cd-4836-4a89-87f2-8a788979143f/', 0, 'customize_changeset', '', 0),
@@ -2543,9 +2545,9 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (276, 1, '2018-12-27 18:09:35', '2018-12-27 23:09:35', '', 'Cotización Rápida', '', 'publish', 'closed', 'closed', '', 'contactanos', '', '', '2018-12-27 18:53:24', '2018-12-27 23:53:24', '', 0, 'http://localhost/wordpress/?page_id=276', 0, 'page', '', 0),
 (277, 1, '2018-12-27 18:04:50', '2018-12-27 23:04:50', ' ', '', '', 'publish', 'closed', 'closed', '', '277', '', '', '2019-01-02 12:32:39', '2019-01-02 17:32:39', '', 0, 'http://localhost/wordpress/?p=277', 2, 'nav_menu_item', '', 0),
 (278, 1, '2018-12-27 18:09:35', '2018-12-27 23:09:35', '', 'Contáctanos', '', 'inherit', 'closed', 'closed', '', '276-revision-v1', '', '', '2018-12-27 18:09:35', '2018-12-27 23:09:35', '', 276, 'http://localhost/wordpress/2018/12/27/276-revision-v1/', 0, 'revision', '', 0),
-(279, 1, '2018-12-27 18:10:02', '2018-12-27 23:10:02', ' ', '', '', 'publish', 'closed', 'closed', '', '279', '', '', '2019-01-02 12:32:39', '2019-01-02 17:32:39', '', 0, 'http://localhost/wordpress/?p=279', 6, 'nav_menu_item', '', 0),
+(279, 1, '2018-12-27 18:10:02', '2018-12-27 23:10:02', ' ', '', '', 'publish', 'closed', 'closed', '', '279', '', '', '2019-01-05 10:23:29', '2019-01-05 15:23:29', '', 0, 'http://localhost/wordpress/?p=279', 10, 'nav_menu_item', '', 0),
 (280, 1, '2018-12-27 18:10:42', '2018-12-27 23:10:42', '<!-- wp:paragraph -->\n<p>Le ofrecemos servicios de calidad</p>\n<!-- /wp:paragraph -->', 'Galería', '', 'inherit', 'closed', 'closed', '', '204-revision-v1', '', '', '2018-12-27 18:10:42', '2018-12-27 23:10:42', '', 204, 'http://localhost/wordpress/2018/12/27/204-revision-v1/', 0, 'revision', '', 0),
-(281, 1, '2018-12-27 18:10:57', '2018-12-27 23:10:57', ' ', '', '', 'publish', 'closed', 'closed', '', '281', '', '', '2019-01-05 09:59:22', '2019-01-05 14:59:22', '', 0, 'http://localhost/wordpress/?p=281', 8, 'nav_menu_item', '', 0),
+(281, 1, '2018-12-27 18:10:57', '2018-12-27 23:10:57', ' ', '', '', 'publish', 'closed', 'closed', '', '281', '', '', '2019-01-05 10:23:29', '2019-01-05 15:23:29', '', 0, 'http://localhost/wordpress/?p=281', 11, 'nav_menu_item', '', 0),
 (282, 1, '2018-12-27 18:29:59', '2018-12-27 23:29:59', '', 'Locales', '', 'inherit', 'closed', 'closed', '', '137-revision-v1', '', '', '2018-12-27 18:29:59', '2018-12-27 23:29:59', '', 137, 'http://localhost/wordpress/2018/12/27/137-revision-v1/', 0, 'revision', '', 0),
 (283, 1, '2018-12-27 18:31:54', '2018-12-27 23:31:54', ' ', '', '', 'publish', 'closed', 'closed', '', '283', '', '', '2019-01-02 12:32:39', '2019-01-02 17:32:39', '', 0, 'http://localhost/wordpress/?p=283', 4, 'nav_menu_item', '', 0),
 (284, 1, '2018-12-27 18:43:10', '2018-12-27 23:43:10', '', 'Recepciones', '', 'inherit', 'closed', 'closed', '', '137-autosave-v1', '', '', '2018-12-27 18:43:10', '2018-12-27 23:43:10', '', 137, 'http://localhost/wordpress/2018/12/27/137-autosave-v1/', 0, 'revision', '', 0),
@@ -2619,10 +2621,11 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (373, 1, '2019-01-05 09:59:23', '2019-01-05 14:59:23', '', 'BABY SHOWER T BAUTIZOS', '', 'inherit', 'closed', 'closed', '', '369-revision-v1', '', '', '2019-01-05 09:59:23', '2019-01-05 14:59:23', '', 369, 'http://localhost/wordpress/2019/01/05/369-revision-v1/', 0, 'revision', '', 0),
 (374, 1, '2019-01-05 09:59:23', '2019-01-05 14:59:23', '', 'FIESTAS ESPECIALES', '', 'inherit', 'closed', 'closed', '', '370-revision-v1', '', '', '2019-01-05 09:59:23', '2019-01-05 14:59:23', '', 370, 'http://localhost/wordpress/2019/01/05/370-revision-v1/', 0, 'revision', '', 0),
 (375, 1, '2019-01-05 09:59:24', '2019-01-05 14:59:24', '', 'CORPORATIVOS', '', 'inherit', 'closed', 'closed', '', '371-revision-v1', '', '', '2019-01-05 09:59:24', '2019-01-05 14:59:24', '', 371, 'http://localhost/wordpress/2019/01/05/371-revision-v1/', 0, 'revision', '', 0),
-(376, 1, '2019-01-05 09:59:24', '2019-01-05 14:59:24', ' ', '', '', 'publish', 'closed', 'closed', '', '376', '', '', '2019-01-05 09:59:24', '2019-01-05 14:59:24', '', 0, 'http://localhost/wordpress/2019/01/05/376/', 9, 'nav_menu_item', '', 0),
-(377, 1, '2019-01-05 09:59:25', '2019-01-05 14:59:25', ' ', '', '', 'publish', 'closed', 'closed', '', '377', '', '', '2019-01-05 09:59:25', '2019-01-05 14:59:25', '', 0, 'http://localhost/wordpress/2019/01/05/377/', 10, 'nav_menu_item', '', 0),
-(378, 1, '2019-01-05 09:59:26', '2019-01-05 14:59:26', ' ', '', '', 'publish', 'closed', 'closed', '', '378', '', '', '2019-01-05 09:59:26', '2019-01-05 14:59:26', '', 0, 'http://localhost/wordpress/2019/01/05/378/', 11, 'nav_menu_item', '', 0),
-(379, 1, '2019-01-05 09:59:26', '2019-01-05 14:59:26', ' ', '', '', 'publish', 'closed', 'closed', '', '379', '', '', '2019-01-05 09:59:26', '2019-01-05 14:59:26', '', 0, 'http://localhost/wordpress/2019/01/05/379/', 12, 'nav_menu_item', '', 0);
+(376, 1, '2019-01-05 09:59:24', '2019-01-05 14:59:24', ' ', '', '', 'publish', 'closed', 'closed', '', '376', '', '', '2019-01-05 10:23:29', '2019-01-05 15:23:29', '', 0, 'http://localhost/wordpress/2019/01/05/376/', 6, 'nav_menu_item', '', 0),
+(377, 1, '2019-01-05 09:59:25', '2019-01-05 14:59:25', ' ', '', '', 'publish', 'closed', 'closed', '', '377', '', '', '2019-01-05 10:23:30', '2019-01-05 15:23:30', '', 0, 'http://localhost/wordpress/2019/01/05/377/', 7, 'nav_menu_item', '', 0),
+(378, 1, '2019-01-05 09:59:26', '2019-01-05 14:59:26', ' ', '', '', 'publish', 'closed', 'closed', '', '378', '', '', '2019-01-05 10:23:30', '2019-01-05 15:23:30', '', 0, 'http://localhost/wordpress/2019/01/05/378/', 8, 'nav_menu_item', '', 0),
+(379, 1, '2019-01-05 09:59:26', '2019-01-05 14:59:26', ' ', '', '', 'publish', 'closed', 'closed', '', '379', '', '', '2019-01-05 10:23:30', '2019-01-05 15:23:30', '', 0, 'http://localhost/wordpress/2019/01/05/379/', 9, 'nav_menu_item', '', 0),
+(380, 1, '2019-01-05 10:23:28', '2019-01-05 15:23:28', '{\n    \"nav_menu_item[279]\": {\n        \"value\": {\n            \"menu_item_parent\": 355,\n            \"object_id\": 276,\n            \"object\": \"page\",\n            \"type\": \"post_type\",\n            \"type_label\": \"P\\u00e1gina\",\n            \"url\": \"http://localhost/wordpress/contactanos/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 33,\n            \"position\": 10,\n            \"status\": \"publish\",\n            \"original_title\": \"Cotizaci\\u00f3n R\\u00e1pida\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-01-05 15:23:13\"\n    },\n    \"nav_menu_item[144]\": {\n        \"value\": {\n            \"menu_item_parent\": 0,\n            \"object_id\": 139,\n            \"object\": \"page\",\n            \"type\": \"post_type\",\n            \"type_label\": \"P\\u00e1gina\",\n            \"url\": \"http://localhost/wordpress/unete-a-nosotros/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 33,\n            \"position\": 12,\n            \"status\": \"publish\",\n            \"original_title\": \"Unete a Nosotros\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-01-05 15:23:13\"\n    },\n    \"nav_menu_item[281]\": {\n        \"value\": {\n            \"menu_item_parent\": 0,\n            \"object_id\": 204,\n            \"object\": \"page\",\n            \"type\": \"post_type\",\n            \"type_label\": \"P\\u00e1gina\",\n            \"url\": \"http://localhost/wordpress/galeria/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 33,\n            \"position\": 11,\n            \"status\": \"publish\",\n            \"original_title\": \"Galer\\u00eda\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-01-05 15:23:28\"\n    },\n    \"nav_menu_item[376]\": {\n        \"value\": {\n            \"object_id\": 367,\n            \"object\": \"page\",\n            \"menu_item_parent\": 355,\n            \"position\": 6,\n            \"type\": \"post_type\",\n            \"title\": \"BODAS\",\n            \"url\": \"http://localhost/wordpress/?page_id=367\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"BODAS\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"P\\u00e1gina\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-01-05 15:23:13\"\n    },\n    \"nav_menu_item[377]\": {\n        \"value\": {\n            \"object_id\": 369,\n            \"object\": \"page\",\n            \"menu_item_parent\": 355,\n            \"position\": 7,\n            \"type\": \"post_type\",\n            \"title\": \"    BABY SHOWER T BAUTIZOS\",\n            \"url\": \"http://localhost/wordpress/?page_id=369\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"    BABY SHOWER T BAUTIZOS\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"P\\u00e1gina\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-01-05 15:23:13\"\n    },\n    \"nav_menu_item[378]\": {\n        \"value\": {\n            \"object_id\": 370,\n            \"object\": \"page\",\n            \"menu_item_parent\": 355,\n            \"position\": 8,\n            \"type\": \"post_type\",\n            \"title\": \"FIESTAS ESPECIALES\",\n            \"url\": \"http://localhost/wordpress/?page_id=370\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"FIESTAS ESPECIALES\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"P\\u00e1gina\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-01-05 15:23:13\"\n    },\n    \"nav_menu_item[379]\": {\n        \"value\": {\n            \"object_id\": 371,\n            \"object\": \"page\",\n            \"menu_item_parent\": 355,\n            \"position\": 9,\n            \"type\": \"post_type\",\n            \"title\": \"CORPORATIVOS\",\n            \"url\": \"http://localhost/wordpress/?page_id=371\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"CORPORATIVOS\",\n            \"nav_menu_term_id\": 33,\n            \"_invalid\": false,\n            \"type_label\": \"P\\u00e1gina\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2019-01-05 15:23:13\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '54afa923-17a4-4afe-8140-a3e806da75f3', '', '', '2019-01-05 10:23:28', '2019-01-05 15:23:28', '', 0, 'http://localhost/wordpress/?p=380', 0, 'customize_changeset', '', 0);
 
 -- --------------------------------------------------------
 
@@ -3824,13 +3827,13 @@ ALTER TABLE `wp_options`
 -- AUTO_INCREMENT de la tabla `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2452;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2455;
 
 --
 -- AUTO_INCREMENT de la tabla `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=380;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=381;
 
 --
 -- AUTO_INCREMENT de la tabla `wp_queue`
