@@ -1,0 +1,10 @@
+2019-01-14T02:48:44+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Tribe__Events__Meta__Save::__construct() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php on line 3115 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Meta\Save.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Main.php(3115): Tribe__Events__Meta__Save->__construct(0, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): Tribe__Events__Main->addEventMeta(0, NULL)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(3747): do_action('save_post', 0, NULL, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\revision.php(300): wp_insert_post(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoint in C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\src\Tribe\Meta\Save.php on line 33
+
